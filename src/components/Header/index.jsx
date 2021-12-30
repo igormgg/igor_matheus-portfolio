@@ -9,11 +9,13 @@ const Header = () => {
       <div id="homeBox">
         <div id="nameBox">
           <h1>Igor Matheus</h1>
-          <h2>Desenvolvedor Front-End</h2>
+          <h2>Front-End Developer</h2>
         </div>
-        <div>
-          <button onClick={() => history.push("/")}>Homepage</button>
-          <button onClick={() => history.push("/contact")}>Contact</button>
+        <div id="buttonsBox">
+          <button onClick={() => history.push("/")}>Página Inicial</button>
+          <button onClick={() => history.push("/curriculum")}>Currículo</button>
+          <button onClick={() => history.push("/portfolio")}>Portfólio</button>
+          <button onClick={() => history.push("/contact")}>Contato</button>
         </div>
       </div>
     </HeaderContainer>

@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
         --gray2: #858C9F;
         --gray3: #545C6B;
         --gray4: #212229;
+        --white: whitesmoke;
     }
 
     * {
@@ -19,11 +20,11 @@ const GlobalStyle = createGlobalStyle`
             width: 7px;               
         }
         ::-webkit-scrollbar-track {
-            /* background: var(--gray3); */
+            background: var(--gray3);
             border-radius: 20px;    
         }
         ::-webkit-scrollbar-thumb {
-        /* background-color: var(--secondary-color);    */
+            background-color: var(--green);   
             border-radius: 20px;
         }
     }
@@ -33,16 +34,20 @@ const GlobalStyle = createGlobalStyle`
         font-size: 100%;
     }
     
-    ol, ul {
-    	list-style: none;
+    html {
+        background-color: var(--white);
     }
-
+    
     .App {
         /* max-width: 1500px; */
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
+    }
+
+    ol, ul {
+        list-style: none;
     }
 
     button {

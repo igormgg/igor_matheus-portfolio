@@ -12,10 +12,10 @@ export const HeaderContainer = styled.div`
   align-items: center;
 
   #homeBox {
-    max-width: 1500px;
+    max-width: 1200px;
     width: 100%;
     height: 100%;
-    padding: 5px 0 5px 0;
+    padding: 5px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +31,23 @@ export const HeaderContainer = styled.div`
         color: var(--gray2);
         font-size: 16px;
         font-weight: normal;
+      }
+    }
+
+    #buttonsBox {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        color: var(--gray1);
+        background-color: unset;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        :hover {
+          filter: brightness(0.8);
+        }
       }
     }
   }
