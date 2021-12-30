@@ -32,7 +32,6 @@ const HomeContainer = styled.div`
     h1 {
       font-size: 28px;
       font-weight: bold;
-      /* color: var(--green); */
     }
 
     h2 {
