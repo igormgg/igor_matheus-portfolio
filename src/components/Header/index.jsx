@@ -1,5 +1,6 @@
 import { useHistory } from "react-router-dom";
 import { HeaderContainer } from "./styles";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   const history = useHistory();
@@ -16,6 +17,9 @@ const Header = () => {
           <button onClick={() => history.push("/curriculum")}>Currículo</button>
           <button onClick={() => history.push("/portfolio")}>Portfólio</button>
           <button onClick={() => history.push("/contact")}>Contato</button>
+        </div>
+        <div id="menuBox">
+          <GiHamburgerMenu />
         </div>
       </div>
     </HeaderContainer>

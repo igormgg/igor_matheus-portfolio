@@ -4,7 +4,7 @@ import bgImage from "./img/cleanPatternBackground.png";
 
 const GlobalStyle = createGlobalStyle`
     :root {
-        --green: #60CBB0;
+        --green: #60bea7;
         --gray1: #F5F5F5;
         --gray2: #858C9F;
         --gray3: #545C6B;

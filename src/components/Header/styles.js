@@ -10,12 +10,14 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 8px 10px var(--gray4);
+  animation: up_to_bottom 1s 1 ease;
 
   #homeBox {
     max-width: 1200px;
     width: 100%;
     height: 100%;
-    padding: 5px 10px;
+    padding: 4px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,9 +48,37 @@ export const HeaderContainer = styled.div`
         font-size: 16px;
         font-weight: bold;
         :hover {
-          filter: brightness(0.8);
+          color: var(--green);
         }
       }
+    }
+
+    #menuBox {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    #homeBox {
+      padding: 4px 36px;
+
+      #buttonsBox {
+        display: none;
+        color: red;
+      }
+
+      #menuBox {
+        color: var(--white);
+        display: block;
+        font-size: 36px;
+      }
+    }
+  }
+
+  @keyframes up_to_bottom {
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
     }
   }
 `;

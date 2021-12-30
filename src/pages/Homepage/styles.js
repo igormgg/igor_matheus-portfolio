@@ -12,6 +12,7 @@ const HomeContainer = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
+    animation: left_to_right 1s 1 ease 0.5s both;
 
     img {
       width: 90%;
@@ -26,15 +27,18 @@ const HomeContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    animation: right_to_left 1s 1 ease 1s both;
 
     h1 {
       font-size: 28px;
       font-weight: bold;
+      /* color: var(--green); */
     }
 
     h2 {
       font-size: 36px;
       font-weight: bold;
+      color: var(--green);
     }
 
     h3 {
@@ -83,6 +87,20 @@ const HomeContainer = styled.div`
       p {
         font-size: 12px;
       }
+    }
+  }
+
+  @keyframes left_to_right {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+  }
+
+  @keyframes right_to_left {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
     }
   }
 `;
