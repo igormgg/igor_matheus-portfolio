@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+import bgImage from "./img/cleanPatternBackground.png";
+
 const GlobalStyle = createGlobalStyle`
     :root {
         --green: #60CBB0;
@@ -32,14 +34,14 @@ const GlobalStyle = createGlobalStyle`
     html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
         border: 0;
         font-size: 100%;
+        font-weight: normal;
     }
     
     html {
-        background-color: var(--white);
+        background-image: url(${bgImage});
     }
     
     .App {
-        /* max-width: 1500px; */
         display: flex;
         flex-direction: column;
         align-items: center;
