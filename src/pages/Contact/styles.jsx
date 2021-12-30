@@ -5,6 +5,7 @@ const ContactContainer = styled.div`
   width: 100%;
   height: calc(100vh - 100px);
   padding: 12px;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,6 +16,7 @@ const ContactContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    animation: show_up 1s 1 ease 0.3s both;
 
     h1 {
       font-size: 24px;
@@ -32,6 +34,7 @@ const ContactContainer = styled.div`
     display: flex;
     justify-content: center;
     gap: 50px;
+    animation: right_to_left 1s 1 ease 0.5s both;
     :hover {
       background: rgba(0, 0, 0, 0.15);
       box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -67,6 +70,7 @@ const ContactContainer = styled.div`
     flex-direction: row-reverse;
     justify-content: center;
     gap: 50px;
+    animation: left_to_right 1s 1 ease 0.7s both;
     :hover {
       cursor: pointer;
       background: rgba(0, 0, 0, 0.15);
@@ -103,6 +107,7 @@ const ContactContainer = styled.div`
     display: flex;
     justify-content: center;
     gap: 50px;
+    animation: right_to_left 1s 1 ease 0.5s both;
     :hover {
       background: rgba(0, 0, 0, 0.15);
       box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -138,6 +143,7 @@ const ContactContainer = styled.div`
     flex-direction: row-reverse;
     justify-content: center;
     gap: 50px;
+    animation: left_to_right 1s 1 ease 0.7s both;
     :hover {
       cursor: pointer;
       background: rgba(0, 0, 0, 0.15);
@@ -242,6 +248,26 @@ const ContactContainer = styled.div`
         font-size: 24px;
         justify-content: center;
       }
+    }
+  }
+
+  @keyframes left_to_right {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+  }
+
+  @keyframes right_to_left {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+  }
+
+  @keyframes show_up {
+    from {
+      opacity: 0;
     }
   }
 `;

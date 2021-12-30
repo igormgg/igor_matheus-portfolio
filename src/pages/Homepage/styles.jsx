@@ -5,6 +5,7 @@ const HomeContainer = styled.div`
   width: 100%;
   height: calc(100vh - 100px);
   padding: 4px 12px;
+  overflow-x: hidden;
   display: flex;
 
   #photoDiv {
