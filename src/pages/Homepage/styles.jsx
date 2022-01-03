@@ -48,6 +48,36 @@ const HomeContainer = styled.div`
     p {
       font-size: 16px;
     }
+
+    #skillsDiv {
+      text-align: center;
+      display: flex;
+      gap: 5px;
+
+      div {
+        border: 1px solid var(--gray4);
+        padding: 3px;
+
+        svg {
+          transform: translateY(2px);
+        }
+      }
+    }
+
+    #learningDiv {
+      text-align: center;
+      display: flex;
+      gap: 5px;
+
+      div {
+        border: 1px solid var(--gray4);
+        padding: 3px;
+
+        svg {
+          transform: translateY(2px);
+        }
+      }
+    }
   }
 
   @media screen and (max-width: 750px) {
@@ -86,6 +116,22 @@ const HomeContainer = styled.div`
 
       p {
         font-size: 12px;
+      }
+
+      #skillsDiv {
+        justify-content: center;
+
+        div {
+          font-size: 12px;
+        }
+      }
+
+      #learningDiv {
+        justify-content: center;
+
+        div {
+          font-size: 12px;
+        }
       }
     }
   }

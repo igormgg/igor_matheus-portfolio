@@ -6,7 +6,11 @@ const Curriculum = () => {
     <>
       <Header />
       <CurriculumContainer>
-        <h1>Curriculum</h1>
+        <div>
+          <h1>Igor Matheus Gomes Gonçalves</h1>
+          <h2>Nascido em 15 de Maio de 1996</h2>
+        </div>
+        <div></div>
       </CurriculumContainer>
     </>
   );
