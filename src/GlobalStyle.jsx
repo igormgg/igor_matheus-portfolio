@@ -5,11 +5,18 @@ import bgImage from "./img/cleanPatternBackground.png";
 const GlobalStyle = createGlobalStyle`
     :root {
         --green: #60bea7;
+        --darkgreen: #478d7c;
+        --white: whitesmoke;
         --gray1: #F5F5F5;
         --gray2: #858C9F;
         --gray3: #545C6B;
         --gray4: #212229;
-        --white: whitesmoke;
+        --greenGradient: linear-gradient(
+        to top left,
+        rgba(96, 190, 167, 1) 0%,
+        rgba(177, 223, 212, 0) 60%,
+        rgba(255, 255, 255, 0) 100%
+        );
     }
 
     * {

@@ -8,10 +8,10 @@ import {
   SiHtml5,
   SiReact,
   SiGit,
-  SiHeroku,
   SiPython,
   SiFlask,
   SiDjango,
+  SiTypescript,
 } from "react-icons/si";
 
 const Homepage = () => {
@@ -46,19 +46,19 @@ const Homepage = () => {
                 <SiJavascript /> JAVASCRIPT
               </div>
               <div>
-                <SiCss3 /> CSS3
-              </div>
-              <div>
-                <SiHtml5 /> HTML5
+                <SiTypescript /> TYPESCRIPT
               </div>
               <div>
                 <SiReact /> REACT
               </div>
               <div>
-                <SiGit /> GIT
+                <SiHtml5 /> HTML5
               </div>
               <div>
-                <SiHeroku /> HEROKU
+                <SiCss3 /> CSS3
+              </div>
+              <div>
+                <SiGit /> GIT
               </div>
             </div>
             <p>Aprendendo:</p>
