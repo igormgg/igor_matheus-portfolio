@@ -3,14 +3,14 @@ import HomeContainer from "./styles";
 import profilePic from "../../img/profilePicTransparent.png";
 
 import {
-  SiJavascript,
   SiCss3,
-  SiHtml5,
-  SiReact,
-  SiGit,
-  SiPython,
-  SiFlask,
   SiDjango,
+  SiFlask,
+  SiGit,
+  SiHtml5,
+  SiJavascript,
+  SiPython,
+  SiReact,
   SiTypescript,
 } from "react-icons/si";
 

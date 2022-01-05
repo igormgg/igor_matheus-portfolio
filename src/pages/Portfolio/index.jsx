@@ -6,8 +6,9 @@ import hamburgueriaKenzie from "../../img/hamburgueriaKenzie.png";
 import devHabits from "../../img/devHabits.png";
 import kenzieHub from "../../img/kenzieHub.png";
 import ligBallZ from "../../img/ligBallZ.png";
-import torreDeHanoi from "../../img/torreDeHanoi.png";
 import pokemonJackpot from "../../img/pokemonJackpot.png";
+import torreDeHanoi from "../../img/torreDeHanoi.png";
+
 import { BsGithub } from "react-icons/bs";
 
 const Portfolio = () => {

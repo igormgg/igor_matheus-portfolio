@@ -1,9 +1,9 @@
+import { FaHome } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+import { RiFilePaper2Fill, RiMessage2Fill } from "react-icons/ri";
 import { SidebarContainer } from "./styles";
 import { useHistory } from "react-router-dom";
 import { useSidebar } from "../../providers/sidebar";
-import { FaHome } from "react-icons/fa";
-import { RiFilePaper2Fill, RiMessage2Fill } from "react-icons/ri";
-import { FaLaptopCode } from "react-icons/fa";
 
 const Sidebar = () => {
   const { closeSidebar } = useSidebar();
