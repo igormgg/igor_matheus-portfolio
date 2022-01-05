@@ -127,7 +127,7 @@ const Curriculum = () => {
               <h5>Peer Coach</h5>
               <ul>
                 <li>Monitoria em Javascript, HTML, CSS e React.JS</li>
-                <li>Coreção de atividades</li>
+                <li>Correção de atividades</li>
                 <li>Assistência na elaboração de códigos</li>
               </ul>
             </div>
