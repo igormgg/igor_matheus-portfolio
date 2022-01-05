@@ -29,14 +29,21 @@ const Homepage = () => {
           <div>
             <p>Moro em Brasília - DF.</p>
             <p>
-              Sou formado em Direito pelo UniCEUB. Tenho diploma de conclusão
-              nos cursos de inglês, espanhol, e francês.
+              Desde criança eu me interessava pela área da tecnologia. Acabei
+              optando por Direito na faculdade, mas vi que esse não era um curso
+              que me despertava estusiasmo. Durante a pandemia de 2020, percebi
+              o quanto o campo da tecnologia cresceu, e então vislumbrei a
+              oportunidade de mudar de área e fazer o que eu sempre gostei.
             </p>
             <p>
               Atualmente sou formado como desenvolvedor front-end nas linguagens
               JavaScript, HTML e CSS pela Kenzie Academy Brasil, e estou
               iniciando meus estudos em back-end na linguagem Python também pela
               Kenzie Academy Brasil.
+            </p>
+            <p>
+              Tenho diploma de conclusão nos cursos de inglês, espanhol, e
+              francês.
             </p>
           </div>
           <div>

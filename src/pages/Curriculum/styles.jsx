@@ -84,7 +84,7 @@ const CurriculumContainer = styled.div`
 
     #languages {
       float: right;
-      transform: translateY(-120px);
+      transform: translateY(-110px);
       animation: right_to_left 1s 1 ease 1.1s both;
 
       div {

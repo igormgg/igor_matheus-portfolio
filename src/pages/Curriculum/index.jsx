@@ -32,10 +32,6 @@ const Curriculum = () => {
           <div id="courses" className="textBox">
             <h3>Cursos</h3>
             <div>
-              <h4>Desenvolvedor Front-End</h4>
-              <h5>Kenzie Academy, 1.000 horas, conclusão em 2021</h5>
-            </div>
-            <div>
               <h4>Empreendedorismo</h4>
               <h5>SENAI, 14 horas, conclusão em 2021</h5>
             </div>
@@ -78,12 +74,14 @@ const Curriculum = () => {
           </div>
           <div id="objective" className="textBox">
             <h3>Objetivo</h3>
-            <h4>Desenvolvedor Front-End.</h4>
-            <h5>
-              Profissional responsável, com excelente comunicação verbal e
-              escrita. Objetivo, organizado, com facilidade de aprendizagem e
-              bom relacionamento interpessoal.
-            </h5>
+            <h4>Desenvolvedor Front-End</h4>
+          </div>
+          <div id="skills" className="textBox">
+            <h3>Competências</h3>
+            <h4>
+              Javascript | Typescript | React | HTML | CSS | Python | Flask |
+              GIT | Scrum
+            </h4>
           </div>
           <div id="graduation" className="textBox">
             <h3>Formação acadêmica</h3>
@@ -99,15 +97,17 @@ const Curriculum = () => {
               </div>
             </div>
           </div>
-          <div id="skills" className="textBox">
-            <h3>Competências</h3>
-            <h4>
-              Javascript | Typescript | React | HTML | CSS | Python | Flask |
-              GIT | Scrum
-            </h4>
-          </div>
           <div id="jobs" className="textBox">
             <h3>Experiência</h3>
+            <div>
+              <h4>Kenzie Academy Brasil, 2021 - Atualmente</h4>
+              <h5>Peer Coach</h5>
+              <ul>
+                <li>Monitoria em Javascript, HTML, CSS e React.JS</li>
+                <li>Correção de atividades</li>
+                <li>Assistência na elaboração de códigos</li>
+              </ul>
+            </div>
             <div>
               <h4>
                 TJDFT - Tribunal de Justiça do Distrito Federal e Territórios,
@@ -120,15 +120,6 @@ const Curriculum = () => {
                 <li>
                   Gerenciamento de informações em sistema judicial informatizado
                 </li>
-              </ul>
-            </div>
-            <div>
-              <h4>Kenzie Academy Brasil, 2021 - Atualmente</h4>
-              <h5>Peer Coach</h5>
-              <ul>
-                <li>Monitoria em Javascript, HTML, CSS e React.JS</li>
-                <li>Correção de atividades</li>
-                <li>Assistência na elaboração de códigos</li>
               </ul>
             </div>
           </div>
