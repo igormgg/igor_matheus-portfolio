@@ -5,7 +5,7 @@ export const HeaderContainer = styled.div`
   position: sticky;
   top: 0px;
   height: 100px;
-  z-index: 2;
+  z-index: 3;
   background-color: var(--gray4);
   display: flex;
   justify-content: center;
@@ -47,8 +47,16 @@ export const HeaderContainer = styled.div`
         border: none;
         font-size: 16px;
         font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
         :hover {
           color: var(--green);
+        }
+
+        svg {
+          transform: translateY(2px);
         }
       }
     }

@@ -126,7 +126,7 @@ const Curriculum = () => {
               <h4>Kenzie Academy Brasil, 2021 - Atualmente</h4>
               <h5>Peer Coach</h5>
               <ul>
-                <li>Monitoria em Javascript, HTML e CSS</li>
+                <li>Monitoria em Javascript, HTML, CSS e React.JS</li>
                 <li>Coreção de atividades</li>
                 <li>Assistência na elaboração de códigos</li>
               </ul>
@@ -139,11 +139,11 @@ const Curriculum = () => {
               <h5>Eagle, conclusão em 2011</h5>
             </div>
             <div>
-              <h4>Espanhol</h4>
+              <h4>Espanhol Avançado</h4>
               <h5>CNA, conclusão em 2010</h5>
             </div>
             <div>
-              <h4>Francês</h4>
+              <h4>Francês Intermediário</h4>
               <h5>Wizard, conclusão em 2013</h5>
             </div>
           </div>

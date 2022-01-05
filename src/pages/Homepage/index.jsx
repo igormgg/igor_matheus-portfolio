@@ -49,7 +49,7 @@ const Homepage = () => {
                 <SiTypescript /> TYPESCRIPT
               </div>
               <div>
-                <SiReact /> REACT
+                <SiReact /> REACT.JS
               </div>
               <div>
                 <SiHtml5 /> HTML5
@@ -58,17 +58,17 @@ const Homepage = () => {
                 <SiCss3 /> CSS3
               </div>
               <div>
-                <SiGit /> GIT
-              </div>
-            </div>
-            <p>Aprendendo:</p>
-            <div id="learningDiv">
-              <div>
                 <SiPython /> PYTHON
               </div>
               <div>
                 <SiFlask /> FLASK
               </div>
+              <div>
+                <SiGit /> GIT
+              </div>
+            </div>
+            <p>Aprendendo:</p>
+            <div id="learningDiv">
               <div>
                 <SiDjango /> DJANGO
               </div>

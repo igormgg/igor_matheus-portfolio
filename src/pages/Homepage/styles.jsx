@@ -50,8 +50,10 @@ const HomeContainer = styled.div`
     }
 
     #skillsDiv {
+      margin-bottom: 4px;
       text-align: center;
       display: flex;
+      flex-wrap: wrap;
       gap: 5px;
 
       div {
@@ -67,6 +69,7 @@ const HomeContainer = styled.div`
     #learningDiv {
       text-align: center;
       display: flex;
+      flex-wrap: wrap;
       gap: 5px;
 
       div {
