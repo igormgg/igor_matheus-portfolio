@@ -13,7 +13,6 @@ const Curriculum = () => {
         <div id="header">
           <div id="profile">
             <h1>Igor Matheus Gomes Gonçalves</h1>
-            <h2>15 de Maio de 1996</h2>
             <h2>Águas Claras, Brasília - DF</h2>
           </div>
           <div id="socialContact">
