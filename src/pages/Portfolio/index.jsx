@@ -21,7 +21,8 @@ const Portfolio = () => {
             <h1>Veja alguns dos meus últimos projetos!</h1>
             <p>
               O código de todos os projetos se encontram no meu repositório do
-              github. Sinta-se livre para visitar todos eles: {""}
+              github. Sinta-se livre para visitá-los clicando no ícone do
+              GitHub: {""}
               <a
                 href="https://github.com/igormgg?tab=repositories"
                 target="_blank"
@@ -47,8 +48,20 @@ const Portfolio = () => {
                 )
               }
             />
-            <h2>PC Builder</h2>
-            <p>Plataforma de venda de hardware</p>
+            <div className="ProjectInfo">
+              <div>
+                <h2>PC Builder</h2>
+                <p>Venda de hardware</p>
+              </div>
+              <BsGithub
+                onClick={() =>
+                  window.open(
+                    "https://github.com/igormgg/pc-builder-capstone-q2",
+                    "_blank"
+                  )
+                }
+              />
+            </div>
           </div>
           <div className="projectBox">
             <img
@@ -61,8 +74,20 @@ const Portfolio = () => {
                 )
               }
             />
-            <h2>Hamburgueria Kenzie</h2>
-            <p>Plataforma de venda de hambúrguer</p>
+            <div className="ProjectInfo">
+              <div>
+                <h2>Hamburgueria Kenzie</h2>
+                <p>Venda de hambúrguer</p>
+              </div>
+              <BsGithub
+                onClick={() =>
+                  window.open(
+                    "https://github.com/igormgg/react-entrega-s5-hamburgueria-2-0-com-typescript-json-server-igormgg",
+                    "_blank"
+                  )
+                }
+              />
+            </div>
           </div>
           <div className="projectBox">
             <img
@@ -72,8 +97,20 @@ const Portfolio = () => {
                 window.open("https://habits-project-g2.vercel.app/", "_blank")
               }
             />
-            <h2>Dev Habits</h2>
-            <p>Gerenciamento de hábitos</p>
+            <div className="ProjectInfo">
+              <div>
+                <h2>Dev Habits</h2>
+                <p>Gerenciamento de hábitos</p>
+              </div>
+              <BsGithub
+                onClick={() =>
+                  window.open(
+                    "https://github.com/igormgg/habits-project-g2",
+                    "_blank"
+                  )
+                }
+              />
+            </div>
           </div>
           <div className="projectBox">
             <img
@@ -86,8 +123,20 @@ const Portfolio = () => {
                 )
               }
             />
-            <h2>Kenzie Hub</h2>
-            <p>Cadastro de tecnologias</p>
+            <div className="ProjectInfo">
+              <div>
+                <h2>Kenzie Hub</h2>
+                <p>Cadastro de tecnologias</p>
+              </div>
+              <BsGithub
+                onClick={() =>
+                  window.open(
+                    "https://github.com/igormgg/react-entrega-s2-kenzie-hub-igormgg",
+                    "_blank"
+                  )
+                }
+              />
+            </div>
           </div>
           <div className="projectBox">
             <img
@@ -100,8 +149,20 @@ const Portfolio = () => {
                 )
               }
             />
-            <h2>Lig Ball Z</h2>
-            <p>Jogo temático Lig-4</p>
+            <div className="ProjectInfo">
+              <div>
+                <h2>Lig Ball Z</h2>
+                <p>Jogo temático Lig-4</p>
+              </div>
+              <BsGithub
+                onClick={() =>
+                  window.open(
+                    "https://github.com/igormgg/entrega-lig-4-sprint-5-igormgg",
+                    "_blank"
+                  )
+                }
+              />
+            </div>
           </div>
           <div className="projectBox">
             <img
@@ -114,8 +175,20 @@ const Portfolio = () => {
                 )
               }
             />
-            <h2>Torre de Hanói</h2>
-            <p>Jogo temático Torre de Hanói</p>
+            <div className="ProjectInfo">
+              <div>
+                <h2>Torre de Hanói</h2>
+                <p>Jogo temático Torre de Hanói</p>
+              </div>
+              <BsGithub
+                onClick={() =>
+                  window.open(
+                    "https://github.com/igormgg/entrega-torre-de-hanoi-sprint-5-GuilherminoL",
+                    "_blank"
+                  )
+                }
+              />
+            </div>
           </div>
           <div className="projectBox">
             <img
@@ -128,8 +201,20 @@ const Portfolio = () => {
                 )
               }
             />
-            <h2>Pokémon Jackpot</h2>
-            <p>Jogo temático Jackpot</p>
+            <div className="ProjectInfo">
+              <div>
+                <h2>Pokémon Jackpot</h2>
+                <p>Jogo temático Jackpot</p>
+              </div>
+              <BsGithub
+                onClick={() =>
+                  window.open(
+                    "https://github.com/igormgg/entrega-construa-um-jogo-de-azar-sprint-3-igormgg",
+                    "_blank"
+                  )
+                }
+              />
+            </div>
           </div>
         </div>
       </PortfolioContainer>

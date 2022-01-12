@@ -35,6 +35,9 @@ const PortfolioContainer = styled.div`
         a {
           svg {
             color: var(--gray4);
+            :hover {
+              color: var(--gray2);
+            }
           }
         }
       }
@@ -71,22 +74,40 @@ const PortfolioContainer = styled.div`
       box-shadow: 0px 5px 8px var(--gray4);
       border-radius: 8px;
       :hover {
-        cursor: pointer;
         background-color: var(--green);
         color: var(--white);
       }
 
       img {
         width: 100%;
+        :hover {
+          cursor: pointer;
+        }
       }
 
-      h2 {
-        font-size: 20px;
-        font-weight: bold;
-      }
+      .ProjectInfo {
+        display: flex;
+        justify-content: space-between;
 
-      p {
-        font-size: 16px;
+        h2 {
+          font-size: 20px;
+          font-weight: bold;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        svg {
+          font-size: 40px;
+          align-self: center;
+          :hover {
+            cursor: pointer;
+            color: var(--gray4);
+          }
+        }
       }
     }
   }
