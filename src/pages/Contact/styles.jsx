@@ -36,6 +36,7 @@ const ContactContainer = styled.div`
     gap: 50px;
     animation: right_to_left 1s 1 ease 0.5s both;
     :hover {
+      cursor: pointer;
       background: rgba(0, 0, 0, 0.15);
       box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
       backdrop-filter: blur(4px);
@@ -109,6 +110,7 @@ const ContactContainer = styled.div`
     gap: 50px;
     animation: right_to_left 1s 1 ease 0.5s both;
     :hover {
+      cursor: pointer;
       background: rgba(0, 0, 0, 0.15);
       box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
       backdrop-filter: blur(4px);

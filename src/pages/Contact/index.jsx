@@ -19,7 +19,15 @@ const Contact = () => {
             <RiChatSmile2Fill />
           </h1>
         </div>
-        <div id="whatsappDiv">
+        <div
+          id="whatsappDiv"
+          onClick={() =>
+            window.open(
+              "https://api.whatsapp.com/send?phone=5561983353420&text=%20Olá",
+              "_blank"
+            )
+          }
+        >
           <div className="svgDiv">
             <RiWhatsappFill />
           </div>
@@ -40,7 +48,10 @@ const Contact = () => {
             <p>linkedin.com/in/igormgg/</p>
           </div>
         </div>
-        <div id="emailDiv">
+        <div
+          id="emailDiv"
+          onClick={() => window.open("mailto:igormgg@hotmail.com", "_blank")}
+        >
           <div className="svgDiv">
             <MdEmail />
           </div>
