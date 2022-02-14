@@ -28,7 +28,7 @@ const Header = () => {
         <div id="homeBox">
           <div id="nameBox">
             <h1>Igor Matheus</h1>
-            <h2>Front-End Developer</h2>
+            <h2>Full Stack Developer</h2>
           </div>
           <div id="buttonsBox">
             <button onClick={() => history.push("/")}>

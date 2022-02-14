@@ -13,7 +13,10 @@ const Contact = () => {
       <ContactContainer>
         <div id="introContact">
           <h1>Obrigado pelo interesse em entrar em contato!</h1>
-          <h1>Abaixo estão minhas redes.</h1>
+          <h1>
+            Abaixo estão minhas redes. É só clicar em cima pra ser redirecionado
+            para a respectiva página.
+          </h1>
           <h1>
             O meio mais rápido de contato comigo é pelo Whatsapp{" "}
             <RiChatSmile2Fill />

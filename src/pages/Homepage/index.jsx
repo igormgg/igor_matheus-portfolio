@@ -12,6 +12,8 @@ import {
   SiPython,
   SiReact,
   SiTypescript,
+  SiMongodb,
+  SiPostgresql,
 } from "react-icons/si";
 
 const Homepage = () => {
@@ -25,7 +27,7 @@ const Homepage = () => {
         <div id="aboutDiv">
           <h1>Olá mundo!</h1>
           <h2>Eu sou Igor Matheus Gomes Gonçalves</h2>
-          <h3>Front-End Developer</h3>
+          <h3>Full Stack Developer</h3>
           <div>
             <p>Moro em Brasília - DF.</p>
             <p>
@@ -50,6 +52,12 @@ const Homepage = () => {
             <p>Competências:</p>
             <div id="skillsDiv">
               <div>
+                <SiHtml5 /> HTML5
+              </div>
+              <div>
+                <SiCss3 /> CSS3
+              </div>
+              <div>
                 <SiJavascript /> JAVASCRIPT
               </div>
               <div>
@@ -59,16 +67,16 @@ const Homepage = () => {
                 <SiReact /> REACT.JS
               </div>
               <div>
-                <SiHtml5 /> HTML5
-              </div>
-              <div>
-                <SiCss3 /> CSS3
-              </div>
-              <div>
                 <SiPython /> PYTHON
               </div>
               <div>
                 <SiFlask /> FLASK
+              </div>
+              <div>
+                <SiMongodb /> MONGODB
+              </div>
+              <div>
+                <SiPostgresql /> POSTGRESQL
               </div>
               <div>
                 <SiGit /> GIT

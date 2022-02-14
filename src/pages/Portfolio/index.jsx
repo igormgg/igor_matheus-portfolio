@@ -4,7 +4,6 @@ import devSvg from "../../img/devSvg.svg";
 import pcBuilder from "../../img/pcBuilder.png";
 import hamburgueriaKenzie from "../../img/hamburgueriaKenzie.png";
 import devHabits from "../../img/devHabits.png";
-import kenzieHub from "../../img/kenzieHub.png";
 import ligBallZ from "../../img/ligBallZ.png";
 import pokemonJackpot from "../../img/pokemonJackpot.png";
 import torreDeHanoi from "../../img/torreDeHanoi.png";
@@ -106,32 +105,6 @@ const Portfolio = () => {
                 onClick={() =>
                   window.open(
                     "https://github.com/igormgg/habits-project-g2",
-                    "_blank"
-                  )
-                }
-              />
-            </div>
-          </div>
-          <div className="projectBox">
-            <img
-              src={kenzieHub}
-              alt="Kenzie Hub"
-              onClick={() =>
-                window.open(
-                  "https://react-entrega-s2-kenzie-hub-igormgg.vercel.app/",
-                  "_blank"
-                )
-              }
-            />
-            <div className="ProjectInfo">
-              <div>
-                <h2>Kenzie Hub</h2>
-                <p>Cadastro de tecnologias</p>
-              </div>
-              <BsGithub
-                onClick={() =>
-                  window.open(
-                    "https://github.com/igormgg/react-entrega-s2-kenzie-hub-igormgg",
                     "_blank"
                   )
                 }
